@@ -1,0 +1,13 @@
+package: nvidia-exporter
+import:
+- package: github.com/spf13/cobra
+  version: 6e91dde
+- package: github.com/spf13/pflag
+  version: e57e3ee
+- package: github.com/sirupsen/logrus
+  version: ~1.0.1
+- package: github.com/uber-go/tally
+  version: ~3.0.2
+  subpackages:
+  - prometheus
+- package: github.com/facebookgo/clock
